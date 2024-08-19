@@ -1,0 +1,77 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Inter_Fallback_1deade';
+  src: local("Arial");
+  ascent-override:90.49%;
+  descent-override:22.56%;
+  line-gap-override:0.00%;
+  size-adjust:107.06%;
+}@font-face {font-family: '__Inter_Fallback_Fallback_1deade';src: local("Arial");ascent-override: 90.49%;descent-override: 22.56%;line-gap-override: 0.00%;size-adjust: 107.06%
+}.__className_1deade {font-family: '__Inter_Fallback_1deade', '__Inter_Fallback_Fallback_1deade';font-style: normal
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+
+body {
+ background-image: url("/hd.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+#search{
+  display: inline-flex;
+  width: auto;
+justify-content: space-between;
+margin-left: 50px;
+justify-self: last baseline;
+margin-top: 100px;
+}
+#input{
+width: 600px;
+height: 50px;
+border: 2px solid white;
+border-radius: 20px;
+background:transparent;
+resize: none;
+scrollbar-gutter:unset;
+position: relative; 
+color: white;
+font-size: 16px;
+}
+
+#result{
+  width: 700px;
+  height: 400px;
+  background-color: transparent;
+  border: 1px solid rgb(126, 126, 126);
+border-radius: 20px;
+margin-left: 50px;
+}
+#send{
+  margin-left: 35px;
+position: relative;
+border-radius: 20px;
+}
+
+
+#im{
+  margin-top: 15px;
+}
+h1{
+  color: white;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#p{
+  color: white;
+font-size: 16px;
+margin-left: 10px;
+}
+
+
